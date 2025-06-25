@@ -1,54 +1,36 @@
-# blog.nshkr.com
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Static frontend for blog.nshkr.com - GitHub Pages site powered by our headless CMS backend.
+## Getting Started
 
-## Overview
-
-This is the frontend implementation for **blog.nshkr.com**, a hybrid static/dynamic blog that:
-
-- **Static Generation**: Built with modern static site generators
-- **Dynamic Content**: Fetches content from our headless CMS API
-- **GitHub Pages**: Hosted on GitHub Pages for fast, reliable delivery
-- **Custom Domain**: Served at `blog.nshkr.com`
-
-## Architecture
-
-- **Frontend**: This repository (Static site)
-- **Backend**: [CMS API](https://github.com/nshkr-factory-dot-ai/cms)
-- **Hosting**: GitHub Pages
-- **Domain**: blog.nshkr.com
-- **CDN**: GitHub's global CDN
-
-## Tech Stack
-
-- **Framework**: [TBD - Next.js/Astro/Hugo/Jekyll]
-- **Styling**: Tailwind CSS
-- **API Client**: Fetch from CMS backend
-- **Build**: GitHub Actions
-- **Deployment**: Automatic via GitHub Pages
-
-## Development
+First, run the development server:
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
 npm run dev
-
-# Build for production
-npm run build
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Content Flow
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. **Content Creation**: Authors create content via CMS admin interface
-2. **API Delivery**: CMS exposes content via REST/GraphQL APIs
-3. **Static Generation**: This site fetches content and generates static pages
-4. **Deployment**: GitHub Actions builds and deploys to GitHub Pages
-5. **Delivery**: Users access content at blog.nshkr.com
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Related Repositories
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- [CMS Backend](https://github.com/nshkr-factory-dot-ai/cms) - Headless CMS powering this site
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
