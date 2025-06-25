@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="container mx-auto px-4">
           <nav className="flex justify-between items-center">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-              Blog
+              NSHkr Blog
             </h1>
             <div className="flex gap-4">
               <Link href="/" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
@@ -20,6 +20,9 @@ export default function Layout({ children }: LayoutProps) {
               <Link href="/about" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                 About
               </Link>
+              <a href="https://nshkr.com" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" target="_blank" rel="noopener noreferrer">
+                NSHkr.com
+              </a>
             </div>
           </nav>
         </div>
@@ -29,7 +32,7 @@ export default function Layout({ children }: LayoutProps) {
 
       <footer className="border-t dark:border-gray-800 py-6">
         <div className="container mx-auto px-4 text-center text-gray-600 dark:text-gray-300">
-          © 2024 My Blog. All rights reserved.
+          © 2025 NSHkr.com - North Shore Hackerspace. All rights reserved.
         </div>
       </footer>
     </div>
